@@ -1,4 +1,4 @@
-
+// the original code of this homework asked for multiple functions to be written but i found it easier to just write it all as one.
 const inquirer = require('inquirer'); //requires inquirer
 const fs = require('fs'); //requires node fs
 
