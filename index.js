@@ -90,7 +90,7 @@ ${answers.credits}\n
         .then((answers) => {
             //take output, rename to answers, store it in a variable
             const realAnswers = readME(answers);
-            //write a readme.md with the content of realAnswers, else report a variable.
+            //write a readme.md with the content of realAnswers, else report a error.
             fs.writeFile('README.md', realAnswers, (err) =>
             err ? console.log(err) : console.log('README Generated')
             );    
